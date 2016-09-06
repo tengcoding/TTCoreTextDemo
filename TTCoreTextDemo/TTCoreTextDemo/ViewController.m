@@ -16,7 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    打底裤就撒谎的境况撒很大声的萨克几乎都是就爱看的  
     // Do any additional setup after loading the view, typically from a nib.
 }
 

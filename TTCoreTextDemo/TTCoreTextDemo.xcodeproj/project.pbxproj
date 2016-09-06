@@ -15,6 +15,7 @@
 		A5A802D71D7E7130009F9121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A802D51D7E7130009F9121 /* LaunchScreen.storyboard */; };
 		A5A802E21D7E7130009F9121 /* TTCoreTextDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A802E11D7E7130009F9121 /* TTCoreTextDemoTests.m */; };
 		A5A802ED1D7E7130009F9121 /* TTCoreTextDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A802EC1D7E7130009F9121 /* TTCoreTextDemoUITests.m */; };
+		A5A802FF1D7E72D1009F9121 /* CTDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A802FE1D7E72D1009F9121 /* CTDisplayView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A5A802E81D7E7130009F9121 /* TTCoreTextDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTCoreTextDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A802EC1D7E7130009F9121 /* TTCoreTextDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTCoreTextDemoUITests.m; sourceTree = "<group>"; };
 		A5A802EE1D7E7130009F9121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A802FD1D7E72D1009F9121 /* CTDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDisplayView.h; sourceTree = "<group>"; };
+		A5A802FE1D7E72D1009F9121 /* CTDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDisplayView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		A5A802C61D7E712F009F9121 /* TTCoreTextDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A5A802FD1D7E72D1009F9121 /* CTDisplayView.h */,
+				A5A802FE1D7E72D1009F9121 /* CTDisplayView.m */,
 				A5A802CA1D7E712F009F9121 /* AppDelegate.h */,
 				A5A802CB1D7E712F009F9121 /* AppDelegate.m */,
 				A5A802CD1D7E712F009F9121 /* ViewController.h */,
@@ -272,6 +277,7 @@
 			files = (
 				A5A802CF1D7E712F009F9121 /* ViewController.m in Sources */,
 				A5A802CC1D7E712F009F9121 /* AppDelegate.m in Sources */,
+				A5A802FF1D7E72D1009F9121 /* CTDisplayView.m in Sources */,
 				A5A802C91D7E712F009F9121 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
